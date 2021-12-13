@@ -25,7 +25,6 @@ highlight_code = true
 [extra]
 anpu_date_format="%Y/%m/%d"
 anpu_menu_links = [
-    { url = "$BASE_URL/about/", name = "About" },
     { url = "$BASE_URL/tags/", name = "Tags" },
     { url = "$BASE_URL/atom.xml", name = "RSS" },
 ]
