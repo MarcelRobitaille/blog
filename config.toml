@@ -9,7 +9,7 @@ generate_feed = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
-theme = "anpu"
+theme = "splash"
 
 taxonomies = [
     {name = "tags", rss = true},
@@ -23,8 +23,9 @@ highlight_code = true
 
 
 [extra]
-anpu_date_format="%Y/%m/%d"
-anpu_menu_links = [
+splash_author = "Marcel Robitaille"
+splash_date_format="%Y/%m/%d"
+splash_menu_links = [
     { url = "$BASE_URL/tags/", name = "Tags" },
     { url = "$BASE_URL/atom.xml", name = "RSS" },
 ]
