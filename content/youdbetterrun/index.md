@@ -131,3 +131,11 @@ The result is an object with only the data I need small enough to fit in my RAM.
 String serverTime = doc["serverInfo"]["serverTime"];
 nowLocal = DateTime(serverTime.c_str());
 ```
+
+## Additional Images
+
+![Assembled boards fresh from the manufacturer](./boards.jpg)
+![Soldering](./soldering.jpg)
+![First test](./first_test.jpg)
+![Assembly](./assembly.jpg)
+![Panel back](./panel_back.jpg)
