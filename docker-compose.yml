@@ -1,0 +1,9 @@
+services:
+  blog:
+    image: 'blog:latest'
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
+    ports:
+      - '4648:80'
